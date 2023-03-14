@@ -1,3 +1,51 @@
+body {
+  background-color: bisque;
+}
 h1 {
   text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  margin: 0 auto;
+  font-size: 30px;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px;
+  border: gray solid 2px;
+  border-radius: 8px;
+  background-color: rgb(255, 236, 211);
+}
+
+.city {
+  margin-left: 5px;
+}
+.cities {
+  display: flex;
+  border-bottom: gray dashed 1px;
+  justify-content: space-between;
+}
+.cities:last-child {
+  border-bottom: none;
+}
+.time {
+  font-size: 30px;
+  font-weight: bold;
+}
+.date {
+  font-size: 18px;
+}
+footer {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 15px;
 }
