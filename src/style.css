@@ -25,16 +25,13 @@ select {
   border-radius: 8px;
   background-color: rgb(255, 236, 211);
 }
-
-.city {
-  margin-left: 5px;
-}
 .cities {
-  display: flex;
   border-bottom: gray dashed 1px;
+}
+.city {
   justify-content: space-between;
 }
-.cities:last-child {
+.city:last-child {
   border-bottom: none;
 }
 .time {
