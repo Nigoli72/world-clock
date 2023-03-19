@@ -1,12 +1,15 @@
 body {
-  background-color: bisque;
+  background-image: url("https://wallpapers.com/images/hd/three-pocket-watches-showing-time-a2vajzo5jte568n5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 h1 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 h2 {
-  margin: 0 auto;
+  margin: 0 0 5px;
   font-size: 30px;
 }
 select {
@@ -17,32 +20,50 @@ select {
   margin-bottom: 15px;
 }
 .container {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   margin-top: 30px;
   padding: 10px;
   border: gray solid 2px;
   border-radius: 8px;
-  background-color: rgb(255, 236, 211);
+  background-color: #f3d6ac;
 }
-.cities {
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 20px 0;
   border-bottom: gray dashed 1px;
 }
-.city {
-  justify-content: space-between;
-}
 .city:last-child {
-  border-bottom: none;
+  border: none;
+}
+.cities {
+  display: flex;
+  justify-content: space-between;
 }
 .time {
   font-size: 30px;
   font-weight: bold;
 }
 .date {
-  font-size: 18px;
+  font-size: 20px;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+a {
+  color: #924817;
 }
 footer {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
   text-align: center;
   font-size: 22px;
-  padding-top: 15px;
+  padding: 8px 0;
+  background-color: #090103;
+  color: #924817;
+  border-radius: 4px;
 }
