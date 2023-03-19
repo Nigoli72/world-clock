@@ -52,7 +52,11 @@ select {
   opacity: 0.8;
   margin-top: 30px;
 }
+.index {
+  display: block;
+}
 a {
+  text-align: center;
   color: #924817;
 }
 footer {
