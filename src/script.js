@@ -31,6 +31,16 @@ if (sydneyElement) {
   sydneyDateElement.innerHTML = sydneyTime.format("dddd MMMM D[,] YYYY");
 }
 
+//New York
+let newYorkTime = moment.tz("America/New_York");
+let newYorkElement = document.querySelector("#newYork");
+if (newYorkElement) {
+  let newYorkDateElement = newYorkElement.querySelector(".date");
+  let newYorkTimeElement = newYorkElement.querySelector(".time");
+  newYorkTimeElement.innerHTML = newYorkTime.format("h:mm:ss A");
+  newYorkDateElement.innerHTML = newYorkTime.format("dddd MMMM D[,] YYYY");
+}
+
 function updateCity(event) {
   let cityTimeZone = event.target.value;
   if (cityTimeZone === "current") {
